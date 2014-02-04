@@ -580,9 +580,16 @@ secureimage.wav What should (Firefox, Safari, IE, etc.) do with this file? Open 
 = 1.0 =
 - (21 Aug 2008) Initial Release
 
+Screenshots:
+--------
+![screenshot-1](https://raw.github.com/Nginlion/si-captcha-for-wordpress/master/screenshot-1.gif)
+
+![screenshot-2](https://raw.github.com/Nginlion/si-captcha-for-wordpress/master/screenshot-2.gif)
+
+![screenshot-3](https://raw.github.com/Nginlion/si-captcha-for-wordpress/master/screenshot-3.gif)
 
 
 My change:
----------
+--------
 + (4 Feb 2014) Make captcha_code_label and require_span in the same line
 ![problem](https://raw.github.com/Nginlion/si-captcha-for-wordpress/master/problem.png)
