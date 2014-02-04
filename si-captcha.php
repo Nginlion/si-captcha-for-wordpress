@@ -321,8 +321,8 @@ echo '<p>';
 
 $label_string = '<label id="captcha_code_label" for="captcha_code" >';
 $label_string .= ($si_captcha_opt['si_captcha_label_captcha'] != '') ? $si_captcha_opt['si_captcha_label_captcha'] : __('CAPTCHA Code', 'si-captcha');
-$label_string .= '</label>';
-$required_string = '<span class="required">'.$si_captcha_opt['si_captcha_required_indicator']."</span>\n";
+// $label_string .= '</label>';
+$required_string = '<span class="required">&emsp;'.$si_captcha_opt['si_captcha_required_indicator']."</span>\n</label>\n";
 $input_string = '<input id="captcha_code" name="captcha_code" type="text" size="6" ' . $si_aria_required . ' />
 ';
 
